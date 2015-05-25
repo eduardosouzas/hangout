@@ -20,22 +20,34 @@ var app = angular
     'ngTouch'
   ])
   .config(function ($routeProvider) {
-    $routeProvider
+     $routeProvider
       .when('/', {
         templateUrl: 'views/login.html',
-<<<<<<< HEAD
-        controller: 'LoginController'
-      })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl'
-=======
         controller: 'loginController'
       })
       .when('/dashboard', {
         templateUrl: 'views/dashboard.html',
         controller: 'DashboardController'
->>>>>>> c6ee3c188a2bd691b8d7a98ed1a8dd1cbbb4db8b
+      })
+      .when('/pedidos', {
+        templateUrl: '../views/pedidos.html',
+        controller: 'pedidosController'
+      })
+      .when('/clientes', {
+        templateUrl: '../views/cliente.html',
+        controller: 'clienteController'
+      })
+      .when('/produtos', {
+        templateUrl: '../views/produto.html',
+        controller: 'produtoController'
+      })
+      .when('/fornecedores', {
+        templateUrl: '../views/fornecedor.html',
+        controller: 'fornecedorController'
+      })
+      .when('/financeiro', {
+        templateUrl: '../views/financeiro.html',
+        controller: 'financeiroController'
       })
       .otherwise({
         redirectTo: '/'
