@@ -1,6 +1,10 @@
 // Karma configuration
 // http://karma-runner.github.io/0.12/config/configuration-file.html
+<<<<<<< HEAD
 // Generated on 2015-05-22 using
+=======
+// Generated on 2015-05-23 using
+>>>>>>> c6ee3c188a2bd691b8d7a98ed1a8dd1cbbb4db8b
 // generator-karma 1.0.0
 
 module.exports = function(config) {

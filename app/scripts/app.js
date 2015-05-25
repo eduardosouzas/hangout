@@ -23,11 +23,19 @@ var app = angular
     $routeProvider
       .when('/', {
         templateUrl: 'views/login.html',
+<<<<<<< HEAD
         controller: 'LoginController'
       })
       .when('/about', {
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
+=======
+        controller: 'loginController'
+      })
+      .when('/dashboard', {
+        templateUrl: 'views/dashboard.html',
+        controller: 'DashboardController'
+>>>>>>> c6ee3c188a2bd691b8d7a98ed1a8dd1cbbb4db8b
       })
       .otherwise({
         redirectTo: '/'
